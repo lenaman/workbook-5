@@ -10,5 +10,5 @@ kids.forEach(function (kid) {
  });
 
  // below is arrow function as callback function passed to forEach function
- kids.forEach((kid) => console.log(kid.first);
+ kids.forEach((kid) => console.log(kid.first));
  
