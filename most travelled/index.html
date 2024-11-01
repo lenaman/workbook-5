@@ -9,21 +9,29 @@
 <body>
    <main class="container mt-4">
     <h3>Most Visited Cities</h3>
-    <table class="table">
+
+<div class="mb-3">
+    <label for="averageVisitorsDropdown" class="form-label">Filter by Average Visitors:</label>
+    <select id="averageVisitorsDropdown" class="form-select"></select>
+        <option value="">Select</option>
+</div>
+
+    <table class="table table-borderless table-striped">
         <thead>
+        <tr>
             <th>Name</th>
-            <th>City</th>
             <th>Country</th>
-            <th>Average Visitor</th>
+            <th>Continent</th>
+            <th>Average Visitor (millions)</th>
         </tr>
         </thead>
         <tbody id="placesTBody"> 
-            <tr>
+            <!-- <tr>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
    </main> 
